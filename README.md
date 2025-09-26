@@ -1,5 +1,5 @@
-# SSG-Asistence-Desaf-o-T-cnico-Dashboard-de-Gesti-n-con-Snapshots
-Dashboard de Supervisión – Proyecto Personal
+# SSG-Asistence-DesafÍo-TÉcnico-Dashboard-de-GestiÓn-con-Snapshots
+# Dashboard de Supervisión – Proyecto de ingreso laboral
 
 Este proyecto es un Dashboard web que permite visualizar métricas de contacto y ventas, aplicar filtros por fechas, agentes y campañas, y guardar snapshots de los resultados.
 Lo desarrollé como un desafío personal para aprender nuevas tecnologías y mejorar mi manera de presentar información.
