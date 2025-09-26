@@ -31,12 +31,6 @@ Abrí el Panel de Control de XAMPP.
 
 Iniciá Apache y MySQL.
 
-Base de datos
-
-Entrá a http://localhost/phpmyadmin y creá una base de datos (por ejemplo, prometeus_crm).
-
-Importá el archivo SQL con las tablas y datos de ejemplo (lo incluí en la carpeta /sql).
-
 # Abrir el Dashboard
 
 En tu navegador, entrá a: http://localhost/dashboard/index.html.
@@ -46,7 +40,9 @@ En tu navegador, entrá a: http://localhost/dashboard/index.html.
 
 # Base de Datos
 
-Creé la base Prometeus_CRM y le puse la estructura brindada por SSg con sus tablas principales y datos de prueba.
+Importá el archivo SQL con las tablas y datos de ejemplo (lo incluí en el repositorio).
+
+Creé la base Prometeus_CRM y le puse la estructura brindada por SSG con sus tablas principales y datos de prueba.
 
 Solo tuve que crear una tabla extra para los snapshots.
 
