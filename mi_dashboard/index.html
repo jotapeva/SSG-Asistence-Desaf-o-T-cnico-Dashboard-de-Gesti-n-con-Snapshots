@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard Supervisor</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dashboard de Supervisión</h1>
+        <p>Visualización de métricas de contacto y ventas</p>
+    </header>
+
+    <!-- Indicadores principales -->
+    <section id="metricas">
+        <h2>Métricas Principales</h2>
+        <div>
+            <h3>Contactabilidad</h3>
+            <p id="contactabilidad">--%</p>
+        </div>
+        <div>
+            <h3>Penetración Bruta</h3>
+            <p id="penetracion_bruta">--%</p>
+        </div>
+        <div>
+            <h3>Penetración Neta</h3>
+            <p id="penetracion_neta">--%</p>
+        </div>
+    </section>
+
+    <!-- Filtros -->
+    <section id="filtros">
+        <h2>Filtros</h2>
+        <form id="form_filtros">
+            <label for="fecha_inicio">Fecha inicio:</label>
+            <input type="date" id="fecha_inicio" name="fecha_inicio"><br><br>
+
+            <label for="fecha_fin">Fecha fin:</label>
+            <input type="date" id="fecha_fin" name="fecha_fin"><br><br>
+
+            <label for="id_broker">Agente:</label>
+            <select id="id_broker" name="id_broker">
+                <option value="">Todos</option>
+            </select><br><br>
+
+            <label for="id_campaign">Campaña:</label>
+            <select id="id_campaign" name="id_campaign">
+                <option value="">Todas</option>
+            </select><br><br>
+
+            <button type="button" id="aplicar_filtros">Aplicar filtros</button>
+            <button type="button" id="guardar_snapshot">Guardar Snapshot</button>
+        </form>
+    </section>
+    <!-- Snapshots -->
+    <section id="snapshots">
+        <h2>Snapshots del Dashboard</h2>
+        <table id="tabla_snapshots">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Fecha guardado</th>
+                    <th>Contactabilidad</th>
+                    <th>Penetración Bruta</th>
+                    <th>Penetración Neta</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Snapshots se llenarán dinámicamente -->
+            </tbody>
+        </table>
+    </section>
+
+    <script src="dashboard.js"></script>
+</body>
+
+</html>
