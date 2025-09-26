@@ -24,7 +24,7 @@ El enfoque de priorización fue **hacer que el flujo básico funcionara primero*
 
 ## Mi experiencia al desarrollarlo
 
-Cuando empecé, no tenía experiencia previa con PHP. Solo había trabajado con bases de datos y algo de HTML/CSS/JS, pero nunca había creado una API.  
+Cuando empecé, no tenía experiencia previa con PHP. Solo había trabajado con bases de datos relacionales (SQL) y algo de HTML/CSS/JS, tambien con lenguajes mas orientados a objetos como C# o Java, pero nunca nada como esto, creando mis propias APIs con PHP  
 
 Para resolverlo:
 
